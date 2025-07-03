@@ -12,6 +12,9 @@ module.exports = {
         laptop: "1024px",
         laptopL: "1440px",
       },
+      fontFamily: {
+        rubik: ['Rubik', 'sans serif']
+      }
     },
   },
   plugins: [],
