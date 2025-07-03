@@ -11,7 +11,54 @@
 </head>
 
 <body>
-
+    <header class="w-screen h-auto p-3 flex justify-between items-center laptop:px-[80px] laptopL:px-[120px]">
+        <div class="w-fit flex items-center gap-2">
+            <img src="../images/icons/laslesVPN/LaslesVPN_Icon.svg" alt="nav icon"
+                class="w-[30px] h-[31.23px] tablet:w-[35px] tablet:h-[36.23px]">
+            <div class="flex">
+                <h1 class="leading-none">Lasles</h1>
+                <h1 class="leading-none font-bold">VPN</h1>
+            </div>
+        </div>
+        <nav id="nav_main"
+            class="absolute top-[7%] left-0 w-full h-auto pb-2 flex-1 bg-[var(--secondary-color)] rounded-b-2xl hidden flex-col tablet:static tablet:bg-transparent tablet:rounded-none tablet:flex tablet:flex-row tablet:justify-between tablet:items-center tablet:pb-0">
+            <ul id="nav_list"
+                class="w-fit mx-auto flex flex-col gap-2 text-center nav_lists nav-list-tablet-mode tablet:absolute tablet:top-[8%] tablet:left-0 tablet:w-full tablet:bg-[var(--secondary-color)] tablet:py-2 tablet:rounded-b-2xl laptop:static laptop:w-1/2 laptop:bg-transparent laptop:flex laptop:flex-row laptop:justify-center laptop:gap-8">
+                <li><a href="">About</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+            <div class="w-fit mx-auto flex flex-col gap-1 tablet:flex-row tablet:gap-5 laptop:mx-0 laptop:justify-end">
+                <button class="text-[var(--primary-color)] py-1 tablet:text-[var(--primary-color)]">Sign In</button>
+                <button
+                    class="w-[120px] text-[var(--accent-color)] rounded-full border border-[var(--accent-color)] py-1">Sign
+                    Up</button>
+            </div>
+        </nav>
+        <div class="flex items-center">
+            <svg onclick="navBar()" class="tablet:hidden" width="26px" height="26px" stroke-width="1.7"
+                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#F53855">
+                <path d="M3 5H21" stroke="#F53855" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <path d="M3 12H21" stroke="#F53855" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <path d="M3 19H21" stroke="#F53855" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+            </svg>
+            <svg onclick="navList()" class="hidden tablet:block laptop:hidden" width="26px" height="26px"
+                stroke-width="1.7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#F53855">
+                <path d="M3 5H21" stroke="#F53855" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <path d="M3 12H21" stroke="#F53855" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <path d="M3 19H21" stroke="#F53855" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+            </svg>
+        </div>
+    </header>
+    <script src="../js/dropdown.js"></script>
 </body>
 
 </html>

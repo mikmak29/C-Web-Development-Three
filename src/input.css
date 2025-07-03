@@ -10,3 +10,33 @@
     }
 }
 
+:root {
+    --primary-color: #121212;
+    --secondary-color: #efefef;
+    --accent-color: #F53855;
+    --nav-font-color: #4F5665;
+}
+
+.nav_lists > li {
+    @apply py-[0.25rem]
+}
+
+.nav_lists > li > a {
+    @apply text-[var(--accent-color)] font-bold py-[0.25rem] laptop:text-[var(--nav-font-color)] laptop:font-light
+}
+
+.nav-show {
+    @apply flex
+}
+
+.nav-list-show {
+    @apply tablet:flex
+}
+
+.nav-list-tablet-mode {
+    @apply tablet:hidden;
+}
+
+
+
+    
