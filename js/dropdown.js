@@ -2,9 +2,7 @@ const navBar = () => {
     const nav_main = document.getElementById("nav_main");
 
     if (nav_main) {
-        nav_main.classList.toggle("nav-show");
-    } else {
-        console.error("Can't find the Element");
+        nav_main.classList.toggle("nav-show")
     }
 }
 
