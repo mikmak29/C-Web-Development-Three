@@ -26,11 +26,11 @@
 }
 
 .nav-show {
-    @apply flex
+    @apply flex;
 }
 
 .nav-list-show {
-    @apply tablet:flex
+    @apply flex;
 }
 
 .nav-list-tablet-mode {
