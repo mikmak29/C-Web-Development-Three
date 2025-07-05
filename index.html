@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="w-screen h-auto p-3 flex justify-between items-center laptop:px-[80px] laptopL:px-[120px]">
+    <header class="w-screen h-auto p-3 flex justify-between items-center laptop:px-[55px] laptopL:px-[120px]">
         <div class="w-fit flex items-center gap-2">
             <img src="./images/icons/laslesVPN/LaslesVPN_Icon.svg" alt="nav icon"
                 class="w-[30px] h-[31.23px] tablet:w-[35px] tablet:h-[36.23px]">
@@ -58,23 +58,70 @@
             </svg>
         </div>
     </header>
-    <main class="w-screen h-auto py-3 px-4 my-6">
-        <div class="w-full">
-            <div class="w-fit">
+
+    <!-- HERO SECTION -->
+    <main class="w-screen h-auto px-6 my-3 tablet:px-14 laptopL:px-28">
+        <div class="w-full h-auto laptop:flex laptop:flex-row-reverse laptop:items-center laptop:gap-10 laptopL:gap-16">
+            <div class="w-full">
                 <img src="./images/content/Illustration 1.png" alt="Illustration 1"
-                    class="w-[100%] h-[100%] object-cover">
+                    class="w-full h-full aspect-[1/1] object-contain">
             </div>
-            <div class="mt-4 text-center">
-                <span class="text-[26px]">Want anything to be <br>
+            <div class="w-full laptop:w-[90%]">
+                <span
+                    class="text-[26px] mobileM:text-[30px] mobileL:text-[34px] tablet:text-[38px] laptopL:text-[53px]">Want
+                    anything to be
+                    <br>
                     easy with <strong>LaslesVPN.</strong></span>
-                <p class="pt-6 text-justify">Provide a network for all your needs with ease and fun using
+                <h1 class="pt-6 font-thin text-justify">Provide a network for all your needs with ease and fun
+                    using
                     <strong>LaslesVPN</strong> discover
                     interesting features from us.
-                </p>
+                </h1>
+                <button
+                    class="w-fit h-auto bg-[var(--accent-color)] py-4 px-16 mt-6 mb-5 rounded-xl shadow-xl shadow-red-300/90 text-[var(--secondary-color)] font-semibold laptop:mt-10">Get
+                    Started</button>
             </div>
-            <button
-                class="w-fit h-auto bg-[var(--accent-color)] py-4 px-16 mt-10 mb-5 rounded-xl shadow-xl shadow-red-300/90 text-[var(--secondary-color)] font-semibold">Get
-                Started</button>
+        </div>
+        <div
+            class="w-full pt-16 flex items-center flex-col gap-16 tablet:flex-row tablet:justify-between tablet:gap-0 tablet:mx-0">
+            <div class="h-full flex flex-col items-center gap-16 tablet:flex-row">
+                <div class="flex gap-5">
+                    <div class="w-[55px] h-[55px]">
+                        <img src="./images/icons/users/user.svg" alt="hero section icon user"
+                            class="w-full h-full aspect-[1/1]">
+                    </div>
+                    <div class="text-xl">
+                        <h1 class="font-bold">90+</h1>
+                        <h1 class="font-thin">Users</h1>
+                    </div>
+                </div>
+                <!-- <div class="w-full h-[1px] mx-auto bg-[#EEEFF2] tablet:w-[1px] tablet:h-[120px]"></div> -->
+            </div>
+            <div class="h-full flex flex-col items-center gap-16 tablet:flex-row">
+                <div class="flex gap-5">
+                    <div class="w-[55px] h-[55px]">
+                        <img src="./images/icons/users/location.svg" alt="hero section icon user"
+                            class="w-full h-full aspect-[1/1]">
+                    </div>
+                    <div class="text-xl">
+                        <h1 class="font-bold">30+</h1>
+                        <h1 class="font-thin">Location</h1>
+                    </div>
+                </div>
+                <!-- <div class="w-full h-[1px] mx-auto bg-[#EEEFF2] tablet:w-[1px] tablet:h-[120px]"></div> -->
+            </div>
+            <div class="flex flex-col">
+                <div class="flex gap-5">
+                    <div class="w-[55px] h-[55px]">
+                        <img src="./images/icons/users/Server.svg" alt="hero section icon user"
+                            class="w-full h-full aspect-[1/1]">
+                    </div>
+                    <div class="text-xl">
+                        <h1 class="font-bold">50+</h1>
+                        <h1 class="font-thin">Server</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <script src="./js/dropdown.js"></script>
