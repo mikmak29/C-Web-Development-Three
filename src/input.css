@@ -4,10 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    * {
-        @apply font-rubik
-    }
+* {
+    @apply font-rubik
 }
 
 :root {
@@ -15,6 +13,12 @@
     --secondary-color: #efefef;
     --accent-color: #F53855;
     --nav-font-color: #4F5665;
+    --paragraph-color: #4F5665;
+}
+
+
+.main {
+    @apply w-screen h-auto px-6 tablet:px-14 laptopL:px-28
 }
 
 .nav_lists > li {
@@ -35,6 +39,18 @@
 
 .nav-list-tablet-mode {
     @apply tablet:hidden;
+}
+    
+.feature-description {
+    @apply pt-6 text-[var(--paragraph-color)] font-thin text-justify tablet:text-[20px] leading-none
+}
+
+.feature-items {
+    @apply flex items-center gap-3
+}
+
+.feature-items > h1 {
+    @apply font-thin text-sm laptopL:text-lg
 }
 
 
