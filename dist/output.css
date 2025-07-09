@@ -577,11 +577,6 @@ video {
   margin-right: auto;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .mb-5{
   margin-bottom: 1.25rem;
 }
@@ -765,44 +760,29 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-\[0\.25rem\]{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-14{
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.py-\[0\.25rem\]{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-2{
@@ -1202,6 +1182,10 @@ video {
     gap: 2rem;
   }
 
+  .laptop\:gap-14{
+    gap: 3.5rem;
+  }
+
   .laptop\:bg-transparent{
     background-color: transparent;
   }
@@ -1216,45 +1200,12 @@ video {
     padding-right: 55px;
   }
 
-  .laptop\:py-20{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .laptop\:pb-16{
-    padding-bottom: 4rem;
-  }
-
-  .laptop\:pt-10{
-    padding-top: 2.5rem;
-  }
-
-  .laptop\:pt-14{
-    padding-top: 3.5rem;
-  }
-
   .laptop\:pb-20{
     padding-bottom: 5rem;
   }
 
-  .laptop\:pb-24{
-    padding-bottom: 6rem;
-  }
-
-  .laptop\:pt-1{
-    padding-top: 0.25rem;
-  }
-
-  .laptop\:pt-12{
-    padding-top: 3rem;
-  }
-
   .laptop\:pt-8{
     padding-top: 2rem;
-  }
-
-  .laptop\:pb-2{
-    padding-bottom: 0.5rem;
   }
 
   .laptop\:font-light{
@@ -1267,32 +1218,72 @@ video {
 }
 
 @media (min-width: 1440px){
-  .laptopL\:h-\[65\%\]{
-    height: 65%;
-  }
-
   .laptopL\:h-\[70\%\]{
     height: 70%;
+  }
+
+  .laptopL\:h-\[\]{
+    height: ;
+  }
+
+  .laptopL\:h-\[85\%\]{
+    height: 85%;
+  }
+
+  .laptopL\:h-\[80\%\]{
+    height: 80%;
   }
 
   .laptopL\:h-\[75\%\]{
     height: 75%;
   }
 
-  .laptopL\:w-\[45\%\]{
-    width: 45%;
+  .laptopL\:h-\[100\%\]{
+    height: 100%;
   }
 
-  .laptopL\:w-\[65\%\]{
-    width: 65%;
+  .laptopL\:h-\[8\%\]{
+    height: 8%;
+  }
+
+  .laptopL\:h-\[90\%\]{
+    height: 90%;
+  }
+
+  .laptopL\:w-\[45\%\]{
+    width: 45%;
   }
 
   .laptopL\:w-\[70\%\]{
     width: 70%;
   }
 
+  .laptopL\:w-\[85\%\]{
+    width: 85%;
+  }
+
+  .laptopL\:w-\[80\%\]{
+    width: 80%;
+  }
+
   .laptopL\:w-\[75\%\]{
     width: 75%;
+  }
+
+  .laptopL\:w-\[25\%\]{
+    width: 25%;
+  }
+
+  .laptopL\:w-\[100\%\]{
+    width: 100%;
+  }
+
+  .laptopL\:w-\[8\%\]{
+    width: 8%;
+  }
+
+  .laptopL\:w-\[90\%\]{
+    width: 90%;
   }
 
   .laptopL\:gap-16{
@@ -1301,6 +1292,14 @@ video {
 
   .laptopL\:gap-5{
     gap: 1.25rem;
+  }
+
+  .laptopL\:gap-20{
+    gap: 5rem;
+  }
+
+  .laptopL\:gap-24{
+    gap: 6rem;
   }
 
   .laptopL\:px-28{
@@ -1332,6 +1331,18 @@ video {
   .laptopL\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .laptopL\:text-\[42px\]{
+    font-size: 42px;
+  }
+
+  .laptopL\:text-\[44px\]{
+    font-size: 44px;
+  }
+
+  .laptopL\:text-\[45px\]{
+    font-size: 45px;
   }
 }
 
