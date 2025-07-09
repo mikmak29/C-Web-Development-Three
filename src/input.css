@@ -42,7 +42,7 @@
 }
     
 .feature-description {
-    @apply pt-6 text-[var(--paragraph-color)] font-thin text-justify tablet:text-[20px] leading-none
+    @apply pt-6 text-[var(--paragraph-color)] font-thin text-justify tablet:text-[18px] laptopL:text-[20px]
 }
 
 .feature-items {

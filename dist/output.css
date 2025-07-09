@@ -586,32 +586,12 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mt-20{
-  margin-top: 5rem;
-}
-
 .mt-6{
   margin-top: 1.5rem;
 }
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
-}
-
-.mt-12{
-  margin-top: 3rem;
-}
-
-.mt-7{
-  margin-top: 1.75rem;
-}
-
-.mt-4{
-  margin-top: 1rem;
 }
 
 .flex{
@@ -790,6 +770,41 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pb-2{
   padding-bottom: 0.5rem;
 }
@@ -800,10 +815,6 @@ video {
 
 .pt-6{
   padding-top: 1.5rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
 }
 
 .text-center{
@@ -950,11 +961,16 @@ video {
   padding-top: 1.5rem;
   text-align: justify;
   font-weight: 100;
-  line-height: 1;
   color: var(--paragraph-color);
 }
 
 @media (min-width: 768px){
+  .feature-description{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px){
   .feature-description{
     font-size: 20px;
   }
@@ -986,20 +1002,12 @@ video {
 }
 
 @media (min-width: 425px){
+  .mobileL\:text-\[33px\]{
+    font-size: 33px;
+  }
+
   .mobileL\:text-\[34px\]{
     font-size: 34px;
-  }
-
-  .mobileL\:text-\[36px\]{
-    font-size: 36px;
-  }
-
-  .mobileL\:text-\[6px\]{
-    font-size: 6px;
-  }
-
-  .mobileL\:text-\[42px\]{
-    font-size: 42px;
   }
 }
 
@@ -1099,8 +1107,8 @@ video {
     padding-bottom: 0px;
   }
 
-  .tablet\:text-\[20px\]{
-    font-size: 20px;
+  .tablet\:text-\[18px\]{
+    font-size: 18px;
   }
 
   .tablet\:text-\[38px\]{
@@ -1138,10 +1146,6 @@ video {
     display: none;
   }
 
-  .laptop\:h-\[75\%\]{
-    height: 75%;
-  }
-
   .laptop\:h-\[80\%\]{
     height: 80%;
   }
@@ -1150,56 +1154,20 @@ video {
     width: 50%;
   }
 
-  .laptop\:w-\[33\%\]{
-    width: 33%;
+  .laptop\:w-\[55\%\]{
+    width: 55%;
   }
 
   .laptop\:w-\[65\%\]{
     width: 65%;
   }
 
-  .laptop\:w-\[75\%\]{
-    width: 75%;
-  }
-
-  .laptop\:w-\[90\%\]{
-    width: 90%;
-  }
-
-  .laptop\:w-\[40\%\]{
-    width: 40%;
-  }
-
-  .laptop\:w-\[42\%\]{
-    width: 42%;
-  }
-
-  .laptop\:w-\[45\%\]{
-    width: 45%;
-  }
-
-  .laptop\:w-\[4\%\]{
-    width: 4%;
-  }
-
-  .laptop\:w-\[50\%\]{
-    width: 50%;
-  }
-
-  .laptop\:w-\[60\%\]{
-    width: 60%;
-  }
-
-  .laptop\:w-\[70\%\]{
-    width: 70%;
-  }
-
   .laptop\:w-\[80\%\]{
     width: 80%;
   }
 
-  .laptop\:w-\[55\%\]{
-    width: 55%;
+  .laptop\:w-\[90\%\]{
+    width: 90%;
   }
 
   .laptop\:flex-row{
@@ -1248,6 +1216,47 @@ video {
     padding-right: 55px;
   }
 
+  .laptop\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .laptop\:pb-16{
+    padding-bottom: 4rem;
+  }
+
+  .laptop\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .laptop\:pt-14{
+    padding-top: 3.5rem;
+  }
+
+  .laptop\:pb-20{
+    padding-bottom: 5rem;
+  }
+
+  .laptop\:pb-24{
+    padding-bottom: 6rem;
+  }
+
+  .laptop\:pt-1{
+    padding-top: 0.25rem;
+  }
+
+  .laptop\:pt-12{
+    padding-top: 3rem;
+  }
+
+  .laptop\:pt-8{
+    padding-top: 2rem;
+  }
+
+  .laptop\:pb-2{
+    padding-bottom: 0.5rem;
+  }
+
   .laptop\:font-light{
     font-weight: 300;
   }
@@ -1258,24 +1267,28 @@ video {
 }
 
 @media (min-width: 1440px){
-  .laptopL\:h-\[75\%\]{
-    height: 75%;
-  }
-
   .laptopL\:h-\[65\%\]{
     height: 65%;
   }
 
-  .laptopL\:w-\[65\%\]{
-    width: 65%;
+  .laptopL\:h-\[70\%\]{
+    height: 70%;
+  }
+
+  .laptopL\:h-\[75\%\]{
+    height: 75%;
   }
 
   .laptopL\:w-\[45\%\]{
     width: 45%;
   }
 
-  .laptopL\:w-\[80\%\]{
-    width: 80%;
+  .laptopL\:w-\[65\%\]{
+    width: 65%;
+  }
+
+  .laptopL\:w-\[70\%\]{
+    width: 70%;
   }
 
   .laptopL\:w-\[75\%\]{
@@ -1304,6 +1317,14 @@ video {
     padding-top: 5rem;
   }
 
+  .laptopL\:text-\[20px\]{
+    font-size: 20px;
+  }
+
+  .laptopL\:text-\[37px\]{
+    font-size: 37px;
+  }
+
   .laptopL\:text-\[53px\]{
     font-size: 53px;
   }
@@ -1311,18 +1332,6 @@ video {
   .laptopL\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .laptopL\:text-\[42px\]{
-    font-size: 42px;
-  }
-
-  .laptopL\:text-\[44px\]{
-    font-size: 44px;
-  }
-
-  .laptopL\:text-\[46px\]{
-    font-size: 46px;
   }
 }
 
