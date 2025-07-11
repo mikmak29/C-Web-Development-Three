@@ -81,3 +81,7 @@
 .sponsored-icon {
     @apply w-[140px] h-[140px] aspect-[1/1] object-contain tablet:w-[100px] tablet:h-[100px] laptop:w-[130px] laptop:h-[130px] laptopL:w-[170px] laptopL:h-[170px]
 }
+
+.customer-section {
+    @apply w-[272px] h-[250px] mx-auto p-5 border-2 border-[#DDDDDD] rounded-xl tablet:h-[320px]
+}
