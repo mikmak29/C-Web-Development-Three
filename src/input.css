@@ -16,6 +16,8 @@
     --paragraph-color: #4F5665;
 }
 
+/* Repeatable Class Below */
+
 .main {
     @apply w-screen h-auto px-6 tablet:px-14 laptopL:px-28
 }
@@ -74,4 +76,8 @@
 
 .plan-footer-button {
     @apply mt-4 px-16 py-2 text-[var(--accent-color)] font-semibold border border-[var(--accent-color)] rounded-full
+}
+
+.sponsored-icon {
+    @apply w-[140px] h-[140px] aspect-[1/1] object-contain tablet:w-[100px] tablet:h-[100px] laptop:w-[130px] laptop:h-[130px] laptopL:w-[170px] laptopL:h-[170px]
 }
