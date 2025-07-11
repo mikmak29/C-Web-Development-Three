@@ -16,7 +16,6 @@
     --paragraph-color: #4F5665;
 }
 
-
 .main {
     @apply w-screen h-auto px-6 tablet:px-14 laptopL:px-28
 }
@@ -53,4 +52,26 @@
     @apply font-thin text-sm laptopL:text-lg
 }
 
+.plan-wrapper {
+    @apply w-full h-full mx-auto px-4 pt-16 rounded-lg
+}
 
+.plan-section {
+    @apply w-[190.26px] h-[280px] mx-auto flex flex-col gap-5
+}
+
+.plan-content {
+    @apply flex items-center gap-4
+}
+
+.plan-content-text {
+    @apply text-[var(--paragraph-color)] font-thin text-[15px]
+}
+
+.plan-footer {
+    @apply h-1/2 pb-12 flex justify-center items-end
+}
+
+.plan-footer-button {
+    @apply mt-4 px-16 py-2 text-[var(--accent-color)] font-semibold border border-[var(--accent-color)] rounded-full
+}
