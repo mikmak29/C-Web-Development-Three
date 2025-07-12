@@ -439,49 +439,52 @@
             </div>
         </div>
     </section>
-    <section class="main bg-[#FBFBFB] py-8">
-        <div class="w-fit mx-auto flex justify-between items-center gap-12 tablet:w-full tablet:mx-0">
-            <div class="flex gap-4">
-                <div class="w-[40px] h-[15px] bg-[var(--accent-color)] rounded-full"></div>
-                <div class="w-[15px] h-[15px] bg-[#DEE0E4] rounded-full"></div>
-                <div class="w-[15px] h-[15px] bg-[#DEE0E4] rounded-full"></div>
-                <div class="w-[15px] h-[15px] bg-[#DEE0E4] rounded-full"></div>
+    <main class="relative">
+        <section class="main bg-[#FFFFFF] pt-8 pb-40 tablet:pb-32">
+            <div class="w-fit mx-auto flex justify-between items-center gap-12 tablet:w-full tablet:mx-0">
+                <div class="flex gap-4">
+                    <div class="w-[40px] h-[15px] bg-[var(--accent-color)] rounded-full"></div>
+                    <div class="w-[15px] h-[15px] bg-[#DEE0E4] rounded-full"></div>
+                    <div class="w-[15px] h-[15px] bg-[#DEE0E4] rounded-full"></div>
+                    <div class="w-[15px] h-[15px] bg-[#DEE0E4] rounded-full"></div>
+                </div>
+                <div class="flex gap-6">
+                    <button
+                        class="w-[40px] h-[40px] flex justify-center items-center border-2 border-[var(--accent-color)] rounded-full tablet:w-[50px] tablet:h-[50px] laptopL:w-[60px] laptopL:h-[60px]">
+                        <svg width="20px" height="20px" viewBox="0 0 24 24" stroke-width="1.7" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" color="#F53855">
+                            <path d="M21 12L3 12M3 12L11.5 3.5M3 12L11.5 20.5" stroke="#F53855" stroke-width="1.7"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                    <button
+                        class="w-[40px] h-[40px] flex justify-center items-center bg-[var(--accent-color)] rounded-full tablet:w-[50px] tablet:h-[50px] laptopL:w-[60px] laptopL:h-[60px]">
+                        <svg width="20px" height="20px" viewBox="0 0 24 24" stroke-width="1.7" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" color="#FFFFFF">
+                            <path d="M3 12L21 12M21 12L12.5 3.5M21 12L12.5 20.5" stroke="#FFFFFF" stroke-width="1.7"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="flex gap-6">
-                <button
-                    class="w-[40px] h-[40px] flex justify-center items-center border-2 border-[var(--accent-color)] rounded-full tablet:w-[50px] tablet:h-[50px] laptopL:w-[60px] laptopL:h-[60px]">
-                    <svg width="20px" height="20px" viewBox="0 0 24 24" stroke-width="1.7" fill="none"
-                        xmlns="http://www.w3.org/2000/svg" color="#F53855">
-                        <path d="M21 12L3 12M3 12L11.5 3.5M3 12L11.5 20.5" stroke="#F53855" stroke-width="1.7"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-                </button>
-                <button
-                    class="w-[40px] h-[40px] flex justify-center items-center bg-[var(--accent-color)] rounded-full tablet:w-[50px] tablet:h-[50px] laptopL:w-[60px] laptopL:h-[60px]">
-                    <svg width="20px" height="20px" viewBox="0 0 24 24" stroke-width="1.7" fill="none"
-                        xmlns="http://www.w3.org/2000/svg" color="#FFFFFF">
-                        <path d="M3 12L21 12M21 12L12.5 3.5M21 12L12.5 20.5" stroke="#FFFFFF" stroke-width="1.7"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-                </button>
+        </section>
+        <section class="main absolute bottom-[-120px] tablet:bottom-[-80px]">
+            <div
+                class="bg-[#FFFFFF] rounded-xl py-8 flex flex-col gap-10 tablet:flex-row tablet:justify-between tablet:items-center tablet:gap-0 tablet:px-8">
+                <div class="text-center tablet:text-start">
+                    <h1 class="font-semibold text-2xl laptop:text-3xl">Subscribe Now for <br> Get Special Features!</h1>
+                    <p class="text-[var(--paragraph-color)] text-xs pt-4">Let's subscribe with us and find the fun.</p>
+                </div>
+                <div class="flex justify-center">
+                    <button
+                        class="h-[50px] w-auto bg-[var(--accent-color)] px-10 rounded-xl text-[#ffffff] font-semibold tablet:px-14">
+                        Subscribe Now
+                    </button>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="main">
-        <div class="py-8 flex flex-col gap-10 tablet:flex-row tablet:justify-between tablet:items-center tablet:gap-0">
-            <div class="text-center tablet:text-start">
-                <h1 class="font-semibold text-2xl">Subscribe Now for <br> Get Special Features!</h1>
-                <p class="text-[var(--paragraph-color)] text-xs pt-4">Let's subscribe with us and find the fun.</p>
-            </div>
-            <div class="flex justify-center">
-                <button
-                    class="h-[50px] w-auto bg-[var(--accent-color)] px-10 rounded-xl text-[#ffffff] font-semibold tablet:px-14">
-                    Subscribe Now
-                </button>
-            </div>
-        </div>
-    </section>
-    <footer class="main py-14">
+        </section>
+    </main>
+    <footer class="main pt-28 pb-14 bg-[#F8F8F8] tablet:pt-20">
         <div class="laptop:flex laptop:justify-between">
             <div class="w-full tablet:w-[340px]">
                 <div class="w-fit pt-10 flex items-center gap-2">

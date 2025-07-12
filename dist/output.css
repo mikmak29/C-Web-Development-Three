@@ -572,9 +572,98 @@ video {
   top: 7%;
 }
 
+.top-20{
+  top: 5rem;
+}
+
+.bottom-20{
+  bottom: 5rem;
+}
+
+.-bottom-20{
+  bottom: -5rem;
+}
+
+.bottom-\[\]{
+  bottom: ;
+}
+
+.bottom-\[80\%\]{
+  bottom: 80%;
+}
+
+.-bottom-\[80\%\]{
+  bottom: -80%;
+}
+
+.bottom-\[-80\%\]{
+  bottom: -80%;
+}
+
+.bottom-\[10\%\]{
+  bottom: 10%;
+}
+
+.bottom-\[-10\%\]{
+  bottom: -10%;
+}
+
+.bottom-\[-50\%\]{
+  bottom: -50%;
+}
+
+.bottom-\[-100\%\]{
+  bottom: -100%;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
+.bottom-10{
+  bottom: 2.5rem;
+}
+
+.-bottom-10{
+  bottom: -2.5rem;
+}
+
+.-bottom-14{
+  bottom: -3.5rem;
+}
+
+.-bottom-\[20\%\]{
+  bottom: -20%;
+}
+
+.bottom-\[20\%\]{
+  bottom: 20%;
+}
+
+.bottom-\[-20\%\]{
+  bottom: -20%;
+}
+
+.bottom-\[-100px\]{
+  bottom: -100px;
+}
+
+.bottom-\[-130px\]{
+  bottom: -130px;
+}
+
+.bottom-\[-120px\]{
+  bottom: -120px;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mb-5{
@@ -767,6 +856,10 @@ video {
   gap: 3rem;
 }
 
+.gap-14{
+  gap: 3.5rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -787,14 +880,6 @@ video {
   gap: 1.5rem;
 }
 
-.gap-8{
-  gap: 2rem;
-}
-
-.gap-14{
-  gap: 3.5rem;
-}
-
 .rounded-full{
   border-radius: 9999px;
 }
@@ -805,6 +890,10 @@ video {
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded{
+  border-radius: 0.25rem;
 }
 
 .rounded-b-2xl{
@@ -860,6 +949,36 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#FFFFFF\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F7F7F8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 248 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
+.bg-yellow-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(202 138 4 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F8F8F8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 248 248 / var(--tw-bg-opacity, 1));
 }
 
 .object-contain{
@@ -945,6 +1064,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -955,6 +1079,10 @@ video {
 
 .pb-2{
   padding-bottom: 0.5rem;
+}
+
+.pb-3{
+  padding-bottom: 0.75rem;
 }
 
 .pb-9{
@@ -981,6 +1109,10 @@ video {
   padding-top: 1.5rem;
 }
 
+.pt-7{
+  padding-top: 1.75rem;
+}
+
 .pt-8{
   padding-top: 2rem;
 }
@@ -989,16 +1121,24 @@ video {
   padding-top: 2.25rem;
 }
 
-.pb-4{
-  padding-bottom: 1rem;
+.pb-20{
+  padding-bottom: 5rem;
 }
 
-.pb-3{
-  padding-bottom: 0.75rem;
+.pb-40{
+  padding-bottom: 10rem;
 }
 
-.pt-7{
-  padding-top: 1.75rem;
+.pb-14{
+  padding-bottom: 3.5rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
+}
+
+.pt-28{
+  padding-top: 7rem;
 }
 
 .text-center{
@@ -1042,6 +1182,11 @@ video {
   font-size: 30px;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1055,11 +1200,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -1362,26 +1502,6 @@ video {
     flex-direction: row;
   }
 
-  .mobileL\:justify-between{
-    justify-content: space-between;
-  }
-
-  .mobileL\:gap-0{
-    gap: 0px;
-  }
-
-  .mobileL\:gap-4{
-    gap: 1rem;
-  }
-
-  .mobileL\:gap-10{
-    gap: 2.5rem;
-  }
-
-  .mobileL\:gap-14{
-    gap: 3.5rem;
-  }
-
   .mobileL\:gap-12{
     gap: 3rem;
   }
@@ -1410,6 +1530,14 @@ video {
 
   .tablet\:top-\[8\%\]{
     top: 8%;
+  }
+
+  .tablet\:bottom-\[-\]{
+    bottom: -;
+  }
+
+  .tablet\:bottom-\[-80px\]{
+    bottom: -80px;
   }
 
   .tablet\:mx-0{
@@ -1470,6 +1598,10 @@ video {
     width: 2px;
   }
 
+  .tablet\:w-\[340px\]{
+    width: 340px;
+  }
+
   .tablet\:w-\[35px\]{
     width: 35px;
   }
@@ -1488,38 +1620,6 @@ video {
 
   .tablet\:w-full{
     width: 100%;
-  }
-
-  .tablet\:w-\[40px\]{
-    width: 40px;
-  }
-
-  .tablet\:w-\[20px\]{
-    width: 20px;
-  }
-
-  .tablet\:w-\[200px\]{
-    width: 200px;
-  }
-
-  .tablet\:w-\[250px\]{
-    width: 250px;
-  }
-
-  .tablet\:w-\[400px\]{
-    width: 400px;
-  }
-
-  .tablet\:w-\[380px\]{
-    width: 380px;
-  }
-
-  .tablet\:w-\[350px\]{
-    width: 350px;
-  }
-
-  .tablet\:w-\[340px\]{
-    width: 340px;
   }
 
   .tablet\:flex-row{
@@ -1542,28 +1642,16 @@ video {
     gap: 1rem;
   }
 
+  .tablet\:gap-44{
+    gap: 11rem;
+  }
+
   .tablet\:gap-5{
     gap: 1.25rem;
   }
 
   .tablet\:gap-6{
     gap: 1.5rem;
-  }
-
-  .tablet\:gap-12{
-    gap: 3rem;
-  }
-
-  .tablet\:gap-20{
-    gap: 5rem;
-  }
-
-  .tablet\:gap-40{
-    gap: 10rem;
-  }
-
-  .tablet\:gap-44{
-    gap: 11rem;
   }
 
   .tablet\:rounded-none{
@@ -1603,12 +1691,29 @@ video {
     padding-bottom: 0.5rem;
   }
 
+  .tablet\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .tablet\:pb-0{
     padding-bottom: 0px;
   }
 
   .tablet\:pl-14{
     padding-left: 3.5rem;
+  }
+
+  .tablet\:pt-20{
+    padding-top: 5rem;
+  }
+
+  .tablet\:pb-32{
+    padding-bottom: 8rem;
+  }
+
+  .tablet\:pb-28{
+    padding-bottom: 7rem;
   }
 
   .tablet\:text-start{
@@ -1744,24 +1849,12 @@ video {
     gap: 4rem;
   }
 
-  .laptop\:gap-8{
-    gap: 2rem;
-  }
-
-  .laptop\:gap-20{
-    gap: 5rem;
-  }
-
   .laptop\:gap-24{
     gap: 6rem;
   }
 
-  .laptop\:gap-28{
-    gap: 7rem;
-  }
-
-  .laptop\:gap-10{
-    gap: 2.5rem;
+  .laptop\:gap-8{
+    gap: 2rem;
   }
 
   .laptop\:bg-transparent{
@@ -1803,6 +1896,11 @@ video {
 
   .laptop\:text-\[34px\]{
     font-size: 34px;
+  }
+
+  .laptop\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .laptop\:font-light{
@@ -1871,20 +1969,12 @@ video {
     gap: 4rem;
   }
 
-  .laptopL\:gap-5{
-    gap: 1.25rem;
-  }
-
-  .laptopL\:gap-40{
-    gap: 10rem;
-  }
-
   .laptopL\:gap-32{
     gap: 8rem;
   }
 
-  .laptopL\:gap-20{
-    gap: 5rem;
+  .laptopL\:gap-5{
+    gap: 1.25rem;
   }
 
   .laptopL\:px-28{
