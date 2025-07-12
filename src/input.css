@@ -85,3 +85,11 @@
 .customer-section {
     @apply w-[272px] h-[250px] mx-auto p-5 border-2 border-[#DDDDDD] rounded-xl tablet:h-[320px]
 }
+
+.footer-socmed-icon {
+    @apply w-[60px] h-[60px] aspect-[1/1] object-contain -translate-x-4
+}
+
+.footer-list > li > a {
+    @apply text-[var(--paragraph-color)]
+}
