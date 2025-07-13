@@ -1731,6 +1731,10 @@ video {
     gap: 2rem;
   }
 
+  .laptop\:gap-12{
+    gap: 3rem;
+  }
+
   .laptop\:border-none{
     border-style: none;
   }
