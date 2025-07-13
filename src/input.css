@@ -31,15 +31,11 @@
 }
 
 .nav-show {
-    @apply flex;
+    @apply translate-y-0;
 }
 
 .nav-list-show {
-    @apply flex;
-}
-
-.nav-list-tablet-mode {
-    @apply tablet:hidden;
+    @apply translate-y-0;
 }
     
 .feature-description {
